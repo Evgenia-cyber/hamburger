@@ -107,7 +107,7 @@ body {
   user-select: none;
 }
 
-/* section */
+/* section main-content */
 
 .main-content {
   padding-top: 103px;
@@ -149,4 +149,44 @@ body {
   top: -123px;
   left: calc(100% - 991px);
   pointer-events: none;
+}
+
+/* section why */
+
+.why {
+  background-image: url("../images/whybg.png");
+  background-position: top center;
+  background-size: initial;
+  padding-bottom: 180px;
+}
+
+.why-title {
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  font-size: 64px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.why-items {
+  margin-top: 60px;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: repeat(3, 312px);
+  justify-content: center;
+}
+
+.why-item {
+  text-align: center;
+}
+
+.why-item-title {
+  font-size: 24px;
+  line-height: 29px;
+  padding: 24px 0;
+}
+
+.why-item-text {
+  font-size: 16px;
+  line-height: 22.4px
 }
