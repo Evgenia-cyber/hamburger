@@ -54,12 +54,16 @@ body {
   text-transform: uppercase;
 }
 
+.bg {
+  background-position: top center; /* по вертикали - сверху, по горизонтали - по центру*/
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
 /* styles */
 
 .main {
   background-image: url("../images/bg/main_bg.png");
-  background-position: top center; /* по вертикали - сверху, по горизонтали - по центру*/
-  overflow: hidden;
 }
 
 /* header */
@@ -163,7 +167,6 @@ body {
 
 .why {
   background-image: url("../images/bg/why_bg.png");
-  background-position: top center;
   background-size: initial;
   padding-bottom: 180px;
 }
@@ -195,7 +198,6 @@ body {
 
 .products {
   background-image: url("../images/bg/burgers_bg.png");
-  background-position: top center;
   background-size: 1400px;
   padding-bottom: 180px;
 }
@@ -268,10 +270,7 @@ body {
 
 .order {
   background-image: url("../images/bg/order_bg.png");
-  background-position: top center;
-  background-repeat: no-repeat;
   padding-bottom: 180px;
-  overflow: hidden;
 }
 
 .order .container {
